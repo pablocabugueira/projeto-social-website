@@ -38,3 +38,21 @@ iframe#phone {
     width: 265px;
     height: 470px;
 }
+
+div#buttons {
+    text-align: right;
+}
+
+div#buttons img {
+    width: 50px;
+    margin: 8px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.562);
+    box-sizing: border-box;
+}
+
+div#buttons img:hover {
+    transform: translate(-2.5px, -2.5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.562);
+    transition: transform 0.2s;
+}
